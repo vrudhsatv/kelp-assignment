@@ -5,10 +5,10 @@ var app = require('express');
 
 //local database config
 var db_config = {
-   user: 'root',
-   password: 'root',
-   server: 'localhost', // You can use 'localhost\\instance' to connect to named instance
-   database: 'myfirstdatabase',
+   user: 'node-app',
+   password: 'nodeapp',
+   host: '172.31.87.171', // You can use 'localhost\\instance' to connect to named instance
+   database: 'my_db',
    port: 3306
 }
 
